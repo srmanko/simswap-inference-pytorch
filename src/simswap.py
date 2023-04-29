@@ -319,4 +319,4 @@ class SimSwap:
 
         result = self.blend(target_image, soft_face_mask, att_image)
 
-        return tensor2img(result)
+        return tensor2img(soft_face_mask * target_image + (1 - soft_face_mask) * att_image)
