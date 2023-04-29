@@ -2,7 +2,7 @@ data:
   id_image: "${hydra:runtime.cwd}/demo_file/Iron_man.jpg"
   att_image: "none"
   specific_id_image: "none"
-  att_video: "${hydra:runtime.cwd}/demo_file/multi_people_1080p.mp4"
+  att_video: "${hydra:runtime.cwd}/demo_file/BrZmbTY.mp4"
   output_dir: ${hydra:runtime.cwd}/output
   clean_work_dir: True
 
